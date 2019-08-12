@@ -1,9 +1,7 @@
-chatr=int(input())
-gr=[]
-dog=0
-for h in range (0,chatr+1):
-    dog=abs((2**h)-chatr)
-    gr.append(dog)
-kall=min(gr)
-print(kall)
+s12=input()
+s12=s12.split()
+s12[0]=s12[0].capitalize()
+s12[1]=s12[1].capitalize()
+print(s12[0],end=" ")
+print(s12[1])
 #p
