@@ -1,12 +1,11 @@
-import math
-n3,m3=map(int,input().split())
-sp1=[]
-aa1=list(map(int,input().split()))
-for i in range(0,m3):
-    l1,h1=map(int,input().split())
-    sp1.append([l1,h1])
-for i in sp1:
-    ss1=i[0]-1
-    oo1=i[1]-1
-    print(math.gcd(aa1[ss1],aa1[oo1]))
-    #p
+#p   
+y,s=list(map(int,input().split()))
+ys=0
+for i in range(y,s+1):
+    if i>1:
+        for x in range(2,i):
+            if(i%x==0):
+                break
+        else:
+            ys+=1
+print(ys)
