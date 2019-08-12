@@ -6,3 +6,4 @@ for h in range (0,chatr+1):
     gr.append(dog)
 kall=min(gr)
 print(kall)
+#p
